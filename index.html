@@ -19,7 +19,7 @@
 </head>
 <body>
     <!-- Responsive Navbar -->
-    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
        <h1 class="text-2xl">GREENDEN</h1>
 
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
@@ -43,7 +43,6 @@
     </nav>
 
     <!-- Header section -->
-
     <section class="bg-green-100 p-4 flex justify-center ">
         <div>
             <p class="mb-4">We offer you a wide range of Artificial and Natural Flowers</p>
@@ -62,9 +61,10 @@
         </div>
         
     </section>
+
      <!-- About section -->
     <section class="text-center">
-       <h1 class="font-bold text-3xl mt-5">About Us</h1>
+       <h1 class="font-bold text-3xl m-5">About Us</h1>
        <p>This site for those who admire the beauty and harmony of nature</p>
 
       <div class="md:flex">
@@ -99,7 +99,68 @@
       </div>
 
      </section>
+
+      <!-- Best Seller -->
+      <section class="p-4 text-center">
+          <h1 class="font-bold m-8 text-3xl">Best Seller</h1>
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+           <div>
+            <img src="./Images/pot1.png " class="inline  hover:shadow-xl hover:transform hover:-translate-y-2">
+            <h1>Rose Plant</h1>
+            <p>$20</p>
+           </div>
       
-     <!-- </section> -->
+        <div>
+          <img src="./Images/pot2.png" class="inline  hover:shadow-xl hover:transform hover:-translate-y-2">
+          <h1>Rose Plant</h1>
+          <p>$20</p>
+         </div>
+         <div>
+          <img src="./Images/pot3.png" class="inline  hover:shadow-xl hover:transform hover:-translate-y-2">
+          <h1>Rose Plant</h1>
+          <p>$20</p>
+         </div>
+         <div>
+          <img src="./Images/pot4.png"  class="inline  hover:shadow-xl hover:transform hover:-translate-y-2">
+          <h1>Rose Plant</h1>
+          <p>$20</p>
+         </div>
+        </div>
+      </section>
+
+      <!-- Customer Reviews -->
+      <section class="grid m-5 text-white">
+        <h1 class="font-bold text-3xl text-center text-black mb-5">Customer Reviews</h1>
+        <div class="bg-green-800 m-3 p-5">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit rem voluptatibus debitis modi doloribus nobis exercitationem saepe soluta nulla vel unde, architecto quaerat reiciendis est quo similique dolorem consectetur. Modi?</p>
+          <p class="text-yellow-300 font-bold">Genny Mathew</p>
+        </div>
+        <div class="bg-green-800 m-3 p-5 border-2">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit rem voluptatibus debitis modi doloribus nobis exercitationem saepe soluta nulla vel unde, architecto quaerat reiciendis est quo similique dolorem consectetur. Modi?</p>
+          <p class="text-yellow-300 font-bold">Jim</p>
+        </div>
+        <div class="bg-green-800 m-3 p-5 border-2">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit rem voluptatibus debitis modi doloribus nobis exercitationem saepe soluta nulla vel unde, architecto quaerat reiciendis est quo similique dolorem consectetur. Modi?</p>
+          <p class="text-yellow-300  font-bold">Amir</p>
+        </div>
+      </section>
+
+      <!-- Join our News Letter -->
+      <section>
+        <div  class="text-center mb-10">
+          <h1 class="text-3xl font-bold">Join our News Letter</h1>
+          <p>Signup for our email newspaper to get exclusive discounts, updates and more</p>
+          <input type="text" class="border border-black m-3 p-2" style="width:80%">
+          <br>
+          <button type="button" class="border rounded p-3 m-1 bg-black text-white underline">Subscribe</button>
+        </div>
+      </section>
+      
+      <!--Footer-->
+      <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="font-bold text-4xl">Greeden</h1>
+        <p>The Standard of lorem ipsum used since the 1500s is reproduced below for those interst</p>
+        <p>@ 2021 Greenday.com</p>
+      </section>
 </body>
 </html>
